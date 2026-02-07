@@ -7,7 +7,7 @@ import seaborn as sb
 st.title("📈 NSE Stock Price Viewer")
 
 # Load data
-df = pd.read_csv('../yfinance_Project/stock_nse.csv')
+df = pd.read_csv('stock_nse.csv')
 
 # Convert Date column to datetime
 df['Date'] = pd.to_datetime(df['Date'])
